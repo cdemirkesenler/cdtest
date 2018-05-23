@@ -1,0 +1,1 @@
+robocopy.exe c:\temp\cdtest\ e:\temp\cdtest\ /E /COPY:DAT /V /R:0 /W:0 /NP /LOG:e:\temp\cdtest\1_%date%_srv02_archiv.txt /TEE attrib -a c:\temp\cdtest\*.* /S /D
